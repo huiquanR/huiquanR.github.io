@@ -7,7 +7,7 @@
 ## 添加一篇文章
 
 1. 在 `posts/` 复制一篇 Markdown 文件。
-2. 在文件开头添加 YAML 信息：`title`、`date`、`permalink` 和 `layout: default`。
+2. 在文件开头添加 YAML 信息：`title`、`date`、`permalink` 和 `layout: post`。
 3. `permalink` 使用 `/posts/文章短名/` 的格式。
 4. 在 `posts/index.html` 的列表里加上日期、标题和对应链接。
 5. 提交并推送到 GitHub，GitHub Pages 会自动生成文章页面。

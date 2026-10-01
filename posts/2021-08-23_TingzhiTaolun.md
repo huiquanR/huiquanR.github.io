@@ -2,12 +2,8 @@
 title: "有些人只想关闭讨论，停止思想"
 date: 2021-08-23
 permalink: /posts/2021-08-23-tingzhi-taolun/
-layout: default
+layout: post
 ---
-
-[← 全部文章](/posts/)
-
-# 有些人只想关闭讨论，停止思想
 
 今天的课上，只是聊聊社会学的客观性；我问了问：大伙儿觉得，有客观真理吗？
 

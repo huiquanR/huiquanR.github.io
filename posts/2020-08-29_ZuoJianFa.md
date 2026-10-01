@@ -2,10 +2,8 @@
 title: "做减法"
 date: 2020-08-29
 permalink: /posts/2020-08-29-sui-bi/
-layout: default
+layout: post
 ---
-
-[← 全部文章](/posts/)
 
 最近很忙，忙多了容易烦躁和焦虑。还没到失眠或者需要吃药的程度。也就是有点心烦意乱，有时候事情千头万绪又不知从何下手。
 

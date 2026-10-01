@@ -2,10 +2,8 @@
 title: "家国譬喻"
 date: 2021-02-07
 permalink: /posts/2021-02-07-jia-guo-pi-yu/
-layout: default
+layout: post
 ---
-
-[← 全部文章](/posts/)
 
 很多人底层的思维框架和叙事体系都基于家庭譬喻，这很不精确，但是很方便也很能调动情绪。因为每个人都有直接、绵密、隐微而强烈的一手体验。
 
