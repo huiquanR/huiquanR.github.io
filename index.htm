@@ -41,6 +41,11 @@ h3{font-size:21px;margin:28px 0 10px}
 .pub-list li::marker,.song-list li::marker{color:var(--muted)}
 .meta{color:var(--muted);font-size:.92em}
 summary{cursor:pointer;color:var(--link);padding:8px 0}
+.collapsible-section>details>summary{list-style:none;padding:0;color:var(--ink);font-family:Georgia,"Noto Serif SC","Songti SC",serif;font-size:30px;line-height:1.3;cursor:pointer}
+.collapsible-section>details>summary::-webkit-details-marker{display:none}
+.collapsible-section>details>summary::after{content:"+";margin-left:10px;color:var(--muted);font:18px Arial,sans-serif;vertical-align:middle}
+.collapsible-section>details[open]>summary::after{content:"−"}
+.collapsible-section>details>summary+h2{display:none}
 details{margin-top:14px}
 .song-years{margin:8px 0 16px}
 .song-years summary{font-family:Georgia,"Noto Serif SC","Songti SC",serif;font-size:19px;color:var(--ink)}
@@ -70,8 +75,8 @@ details{margin-top:14px}
 <a class="brand" href="#home">Tony Huiquan Zhang</a>
 <nav class="nav" aria-label="Main navigation">
 <a href="#home">Home</a>
-<a href="#research">Research</a>
 <a href="#publications">Publications</a>
+<a href="#research">Research</a>
 <a href="#teaching">Teaching</a>
 <a href="#data">Data &amp; Code</a>
 <a href="#music">Music &amp; Lyrics</a>
@@ -92,19 +97,6 @@ details{margin-top:14px}
 <p lang="zh">我正在写一本有关华语流行歌词的中文书稿（初定名《国语流行歌词创作随谈》），欢迎感兴趣的出版业者及编辑垂询。</p>
 </div>
 <p class="small-links"><a href="https://github.com/huiquanR/Papers-and-Slides/blob/master/CV/cv_zhang_202609.pdf">CV</a><a href="https://scholar.google.com/citations?user=vNk_gl4AAAAJ">Google Scholar</a><a href="https://github.com/huiquanR">GitHub</a></p>
-</section>
-
-<section id="research">
-<h2>Research</h2>
-<p>My ongoing research projects and interests include:</p>
-<h3>Current research interests</h3>
-<ul class="topic-list">
-<li>Female Leadership and Female Empowerment <span class="meta">(LQ; EJW)</span></li>
-<li>Religious/Linguistic Diversities and Social Consequences <span class="meta">(SOC)</span></li>
-<li>Social Media Control and Political Communication <span class="meta">(CQ; JCC)</span></li>
-<li>Gender Inequalities and Implications for the Youth <span class="meta">(CAD; SocProb; AJoC)</span></li>
-<li>Political Trust, Media Trust and Social Trust <span class="meta">(IJPOR; SOCc; PolPsy)</span></li>
-</ul>
 </section>
 
 <section id="publications">
@@ -151,8 +143,24 @@ details{margin-top:14px}
 </details>
 </section>
 
-<section id="teaching">
-<h2>Teaching</h2>
+<section id="research" class="collapsible-section">
+<details>
+<summary>Research</summary>
+<p>My ongoing research projects and interests include:</p>
+<h3>Current research interests</h3>
+<ul class="topic-list">
+<li>Female Leadership and Female Empowerment <span class="meta">(LQ; EJW)</span></li>
+<li>Religious/Linguistic Diversities and Social Consequences <span class="meta">(SOC)</span></li>
+<li>Social Media Control and Political Communication <span class="meta">(CQ; JCC)</span></li>
+<li>Gender Inequalities and Implications for the Youth <span class="meta">(CAD; SocProb; AJoC)</span></li>
+<li>Political Trust, Media Trust and Social Trust <span class="meta">(IJPOR; SOCc; PolPsy)</span></li>
+</ul>
+</details>
+</section>
+
+<section id="teaching" class="collapsible-section">
+<details>
+<summary>Teaching</summary>
 <p>I have taught undergraduate and graduate courses at St. Thomas More College, the University of Saskatchewan, and the University of Macau.</p>
 <ul class="topic-list">
 <li>Introduction to Sociology</li>
@@ -165,20 +173,24 @@ details{margin-top:14px}
 <li>Deviance and Social Control / Criminology</li>
 </ul>
 <p>Prospective Master’s and PhD students working on public opinion, political communication, diversity and inequality, or politics in Asia and China are welcome to contact me.</p>
+</details>
 </section>
 
-<section id="data">
-<h2>Data &amp; Code</h2>
+<section id="data" class="collapsible-section">
+<details>
+<summary>Data &amp; Code</summary>
 <p>When conducting quantitative research, I work with R. I enjoy the language and the supportive R community, and share practical notes and code from my own social research.</p>
 <p>Topics include data cleaning and reshaping; regression and general linear models; network analysis; agent-based modelling; web scraping; Chinese text mining and sentiment analysis; GIS and spatiotemporal analysis; and interactive data visualization.</p>
 <p>I also share data and programming code for reproducible research. Materials are for academic use. Please do not edit or redistribute datasets without permission, and cite the associated work when using them.</p>
 <p><a href="https://github.com/huiquanR">Selected code, data and slides on GitHub</a></p>
+</details>
 </section>
 
 
 
-<section id="music">
-<h2>Music &amp; Lyrics</h2>
+<section id="music" class="collapsible-section">
+<details>
+<summary>Music &amp; Lyrics</summary>
 <p>I love music and write lyrics and songs for Mandarin pop. Selected published songs include Liu Yuning’s “天问,” Huang Ling’s “小雨,” Huang Xiaoyun’s “你懂的思念,” Li Yugang’s “窗花,” Zhou Shen’s “照耀星河,” Zhou Chuanxiong (Steve Chou)’s “妖王之王,” Zui Xue’s “无涯,” Jing Long’s “骁,” and many others.</p>
 <p lang="zh">除了社科研究者的身份，我还是一名国语流行音乐作词人，曾为周传雄、周深、刘宇宁、黄龄、黄霄云、李玉刚、王铮亮、井胧、陈若轩、张云龙、连淮伟、张恋歌、醉雪等歌手、艺人创作歌曲。代表作包括刘宇宁《天问》、黄龄《小雨》、黄霄云《你懂的思念》、李玉刚《窗花》、周深《照耀星河》、周传雄《妖王之王》、醉雪《无涯》、井胧《骁》、连淮伟《Vibrate》等。音乐合作事宜，欢迎通过电子邮箱联系。</p>
 
@@ -247,12 +259,15 @@ details{margin-top:14px}
 <li>057 2024 刘凤瑶：王北车《没有梦的人该忏悔》</li>
 <li>058 2025 闫骁男：井迪儿《明天寂寞》</li>
 <li>059 2026 许昊珂：—《救赎》</li>
-</ol></details></section>
+</ol></details>
+</details></section>
 
-<section id="contact">
-<h2>Contact</h2>
+<section id="contact" class="collapsible-section">
+<details>
+<summary>Contact</summary>
 <p>For research collaboration, graduate study enquiries, music collaboration, publication, or book enquiries, please contact me by email: <span>huiquanzhang [at] um.edu.mo</span>.</p>
 <p lang="zh">咨询研究生申请、科研合作、音乐合作、发表出版等事宜，请联络我的电子邮箱：huiquanzhang [at] um.edu.mo。</p>
+</details>
 </section>
 <footer class="site-footer">© 2026 · Tony Huiquan Zhang · 张汇泉 · <a href="https://github.com/huiquanR">GitHub</a>
 </footer>
