@@ -1,16 +1,257 @@
+<!doctype html>
+<html lang="en">
 <head>
-<h1> Welcome </h1>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Tony Huiquan Zhang (张汇泉), sociologist, researcher and Mandarin pop lyricist.">
+<title>Tony Huiquan Zhang | 张汇泉</title>
+<style>
+:root{--ink:#24272b;--muted:#626a73;--line:#d9dde1;--link:#245da8;--paper:#fff;--rail:260px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,"Noto Sans SC","Microsoft YaHei",sans-serif;font-size:17px;line-height:1.72}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--link);outline-offset:3px}
+.sidebar{position:fixed;inset:0 auto 0 0;width:var(--rail);padding:55px 34px 32px 42px;border-right:1px solid var(--line);background:#fff}
+.brand{display:block;margin:0 0 46px;color:var(--ink);font-family:Georgia,"Noto Serif SC","Songti SC",serif;font-size:23px;line-height:1.35}
+.brand span{display:block}
+.nav{display:flex;flex-direction:column;gap:13px}
+.nav a{color:#454b52;font-family:Georgia,"Noto Serif SC","Songti SC",serif;font-size:17px}
+.nav a:first-child{color:var(--link)}
+.nav .subnav{margin-top:16px;padding-top:17px;border-top:1px solid var(--line)}
+main{margin-left:var(--rail);max-width:1120px;padding:55px 7vw 70px}
+section{padding:0 0 38px;margin:0 0 36px;border-bottom:1px solid var(--line)}
+section:last-of-type{border-bottom:0}
+h1,h2,h3{font-family:Georgia,"Noto Serif SC","Songti SC",serif;font-weight:400;color:#17191c}
+h1{font-size:43px;line-height:1.2;margin:0 0 10px}
+h2{font-size:30px;line-height:1.3;margin:0 0 19px}
+h3{font-size:21px;margin:28px 0 10px}
+.role{font-size:20px;margin:0;color:#4a5057}
+.affiliation{margin:0 0 25px;color:var(--muted)}
+.intro{max-width:850px}
+.chinese{margin-top:18px}
+.small-links{display:flex;flex-wrap:wrap;gap:20px;margin-top:24px}
+.topic-list{padding-left:22px;margin:0}
+.topic-list li{margin:7px 0}
+.pub-list{padding-left:24px}
+.pub-list li{padding-left:6px;margin:12px 0}
+.pub-list li::marker,.song-list li::marker{color:var(--muted)}
+.meta{color:var(--muted);font-size:.92em}
+summary{cursor:pointer;color:var(--link);padding:8px 0}
+details{margin-top:14px}
+.song-years{margin:8px 0 16px}
+.song-years summary{font-family:Georgia,"Noto Serif SC","Songti SC",serif;font-size:19px;color:var(--ink)}
+.song-list{padding-left:24px}
+.song-list li{margin:8px 0}
+.note{color:var(--muted)}
+#contact p{margin:7px 0}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:10px;top:10px;background:white;padding:8px;z-index:5}
+@media(max-width:850px){
+ :root{--rail:0px}
+ .sidebar{position:relative;width:auto;height:auto;padding:22px 22px 14px;border-right:0;border-bottom:1px solid var(--line)}
+ .brand{font-size:21px;margin:0 0 14px}
+ .nav{flex-direction:row;flex-wrap:wrap;gap:8px 18px}
+ .nav .subnav{margin:0;padding:0;border:0}
+ main{margin:0;padding:34px 24px 55px}
+ h1{font-size:35px}
+ h2{font-size:27px}
+}
+@media(max-width:520px){body{font-size:16px}.sidebar{padding:18px 18px 12px}.nav{gap:5px 14px}.nav a{font-size:15px}main{padding:28px 18px 42px}h1{font-size:31px}}
+</style>
 </head>
-
 <body>
-  Some random posts.
-<h3> Table of Contents </h3> 
-  <a href="https://github.com/huiquanR/huiquanR.github.io/blob/master/2020-09-06-LaoGanBu.md">老干部</a>
-  <a href="https://github.com/huiquanR/huiquanR.github.io/blob/master/2021-02-07-JiaGuoPiYu.md">家国譬喻</a>
-  
-  <h3> <a href="https://github.com/huiquanR/huiquanR.github.io/blob/master/2021-07-27-FindSong.md"> 找歌 </a> </h3> 
-  
-  
+<a class="skip" href="#home">Skip to content</a>
+<aside class="sidebar">
+<a class="brand" href="#home">Tony Huiquan Zhang<span>张汇泉</span></a>
+<nav class="nav" aria-label="Main navigation">
+<a href="#home">Home</a>
+<a href="#research">Research</a>
+<a href="#publications">Publications</a>
+<a href="#data">Data &amp; Code</a>
+<a href="#teaching">Teaching</a>
+<a href="#music">Music &amp; Lyrics</a>
+<a class="subnav" href="#chinese">中文</a>
+<a href="#contact">Contact</a>
+</nav>
+</aside>
+<main>
+<section id="home">
+<h1>Tony Huiquan Zhang <span lang="zh">（张汇泉）</span></h1>
+<p class="role">Associate Professor of Sociology</p>
+<p class="affiliation">University of Macau</p>
+<div class="intro">
+<p>I am an Associate Professor of Sociology at the University of Macau. My research focuses on social and political psychology, comparative politics (especially China and the Asia-Pacific), leadership and organization, the Internet and social media, inequalities, and diversities.</p>
+<p class="chinese" id="chinese" lang="zh">我是张汇泉，现任澳门大学社会学系副教授。我的研究兴趣包括社会与政治心理学、政治文化与公众意见、比较研究（中国及亚太）、互联网与社交媒体、不平等与多样性等领域。</p>
+<p>Alongside my academic work, I write lyrics and songs for Mandarin pop music. I am also working on a book about writing Mandarin pop lyrics.</p>
+<p lang="zh">除了社会科学研究，我也是一名国语流行音乐作词人，正在写一本有关华语流行歌词的中文书稿（暂名《国语流行歌词创作随谈》）。</p>
+</div>
+<p class="small-links"><a href="https://huiquan.weebly.com/uploads/1/1/1/5/111566925/cv_zhang_202609.pdf">CV</a><a href="https://scholar.google.com/citations?user=vNk_gl4AAAAJ">Google Scholar</a><a href="https://github.com/huiquanR">GitHub</a></p>
+</section>
+
+<section id="research">
+<h2>Research</h2>
+<p>My work examines social and political attitudes, leadership, communication, and inequality in comparative perspective, with particular attention to China and the Asia-Pacific.</p>
+<h3>Current research interests</h3>
+<ul class="topic-list">
+<li>Female leadership and female empowerment</li>
+<li>Religious and linguistic diversity and their social consequences</li>
+<li>Social media control and political communication</li>
+<li>Gender inequalities and implications for youth</li>
+<li>Political trust, media trust, and social trust</li>
+</ul>
+</section>
+
+<section id="publications">
+<h2>Selected Publications</h2>
+<p class="note">A selection from my peer-reviewed publications. The complete list is available below.</p>
+<ol class="pub-list" reversed start="29">
+<li>2026 (accepted). Jing Hu, Tony Huiquan Zhang*, Wen-Dong Li, and Peter Heslin. “Is Seeing Believing? Exposure to Substantive Versus Symbolic Women Leaders and Perceptions of Women’s Leadership Potential.” <em>The Leadership Quarterly</em>.</li>
+<li>2026 (accepted). Sumin Zhang† and Tony Huiquan Zhang*. “Academic Performance, Gender Inequality, and Gendered Patterns of Adolescent Bullying Victimization in 67 Societies.” <em>Social Problems</em>.</li>
+<li>2026. Ming Milano Li†, Tony Huiquan Zhang, and Xinshu Zhao*. “Social Media Influence on Tobacco Policy Support: The Role of Cancer Worry and Smoking Status in a Moderated Mediation Framework.” <em>Health Communication</em>. Online First.</li>
+<li>2026. Jing Hu and Tony Huiquan Zhang*. “AI Agents in Research: When Productivity Comes at the Cost of Apprenticeship.” <em>Nature</em>, 653, 322.</li>
+<li>2025. Robert Andersen, Jing Hu, and Tony Huiquan Zhang*. “Religion, Diversity and Outgroup Tolerance across 79 Countries: The ‘Homogenizing’ Role of Heterogeneity.” <em>Sociology</em>, 59(6), 1150–1172.</li>
+</ol>
+<details>
+<summary>Full publication list (29)</summary>
+<ol class="pub-list" reversed start="29">
+<li>2026 (accepted). Jing Hu, Tony Huiquan Zhang*, Wen-Dong Li, and Peter Heslin. “Is Seeing Believing? Exposure to Substantive Versus Symbolic Women Leaders and Perceptions of Women’s Leadership Potential.” <em>The Leadership Quarterly</em>.</li>
+<li>2026 (accepted). Sumin Zhang† and Tony Huiquan Zhang*. “Academic Performance, Gender Inequality, and Gendered Patterns of Adolescent Bullying Victimization in 67 Societies.” <em>Social Problems</em>.</li>
+<li>2026. Ming Milano Li†, Tony Huiquan Zhang, and Xinshu Zhao*. “Social Media Influence on Tobacco Policy Support: The Role of Cancer Worry and Smoking Status in a Moderated Mediation Framework.” <em>Health Communication</em>. Online First.</li>
+<li>2026. Jing Hu and Tony Huiquan Zhang*. “AI Agents in Research: When Productivity Comes at the Cost of Apprenticeship.” <em>Nature</em>, 653, 322.</li>
+<li>2026. Peilian Chi*, Hongfei Du, Natasza Kosakowska Berezecka, Chunhui Yang†, and Tony Huiquan Zhang. “Bridging Awareness and Action: The Influence of Gender Inequality, Power Distance, and Individualism on Collective Action Intention for Gender Equality.” <em>Social Psychological and Personality Science</em>.</li>
+<li>2025. Robert Andersen, Jing Hu, and Tony Huiquan Zhang*. “Religion, Diversity and Outgroup Tolerance across 79 Countries: The ‘Homogenizing’ Role of Heterogeneity.” <em>Sociology</em>, 59(6), 1150–1172.</li>
+<li>2025. Tony Huiquan Zhang, Yingzhu Pu*†, and Kecheng Fang. “‘I Am Patriotic, but...’: The Political Disclaimer as a Social Media Strategy in China.” <em>Journal of Contemporary China</em>.</li>
+<li>2025. Jinjin Liu†, Yingzhu Pu†, and Tony Huiquan Zhang*. “Critical Citizens and Discontented Citizens: Education, Perceptions of Fairness, and Support for Anti-COVID Measures in China.” <em>Political Psychology</em>, 46(5), 1298–1314.</li>
+<li>2025. Guyu Sun† and Tony Huiquan Zhang*. “Peer Influence on Youth Delinquency: How Does School-Level Teacher Quality Matter?” <em>Crime &amp; Delinquency</em>, 71(10), 3391–3416.</li>
+<li>2025. Tony Huiquan Zhang, Jianhua Xu*, and Jinjin Liu†. “How Do Toothless Tigers Bite? Extra-Institutional Governance and Internet Censorship by Local Governments in China.” <em>The China Quarterly</em>, 261, 196–215.</li>
+<li>2024. Jinjin Liu†, Yue Liu†, Yingzhu Pu†*, and Tony Huiquan Zhang. “Income, Ageing, and Gendered Patterns of Wellness: Health and Happiness in China.” <em>The Journal of Women &amp; Aging</em>, 36(5), 343–358.</li>
+<li>2024. Jing Hu and Tony Huiquan Zhang*. “The National Unemployment Rate and the Meaning of Work: A Cross-level Examination.” <em>European Journal of Work and Organizational Psychology</em>, 33(4), 474–487.</li>
+<li>2024. Tony Huiquan Zhang and Anli Jiang*. “Urbanization, Education and Religion: Rationalization and Erosion of Political Trust in Asia.” <em>Sociology Compass</em>, 18(1), 1–18.</li>
+<li>2023. Tony Huiquan Zhang and Tianji Cai*. “Measuring Event Diffusion Momentum (EDM): Applications in Social Movement Research.” <em>Research in Social Movements, Conflicts and Change</em>, 47(10), 215–238.</li>
+<li>2023. Jing Hu, Tony Huiquan Zhang*, and Christopher Jackson. “The Effects of Leadership Levels and Gender on Leader Well-being.” <em>Journal of Occupational Health Psychology</em>, 28(5), 325–342.</li>
+<li>2022. Yue Liu*†, Huiqun Wang†, Jinjin Liu†, and Tony Huiquan Zhang. “Racial Diversity, Majority-Minority Gap and Confidence in Criminal Justice Systems.” <em>Canadian Journal of Criminology and Criminal Justice</em>, 64(3), 26–48.</li>
+<li>2022. Tony Huiquan Zhang*. “Fifty Years of Postmaterialism: The Theoretical Development and Empirical Trends.” <em>Sociological Review of China</em>, 10(5), 163–183. Chinese-language article.</li>
+<li>2022. Tony Huiquan Zhang*. “Cross-Context Comparability of the Measures of Postmaterialism.” <em>Social Sciences Abroad</em>, 2022(1), 44–55. Chinese-language article.</li>
+<li>2022. Anli Jiang†, Zhengxu Wang, and Tony Huiquan Zhang*. “Radicalizing and Conservatizing: Ageing Effects on Political Trust in Asia, 2001–2016.” <em>Social Indicators Research</em>, 162(2), 665–681.</li>
+<li>2022. Tony Huiquan Zhang*. “Political Freedom, Education, and Value Liberalization and Deliberalization: A Cross-national Analysis of the World Values Survey, 1981–2014.” <em>Social Science Journal</em>, 59(3), 1–21.</li>
+<li>2021. Anli Jiang† and Tony Huiquan Zhang*. “Political Freedom, News Consumption, and Patterns of Political Trust: Evidence from East and Southeast Asia, 2001–2016.” <em>Political Science</em>, 73(3), 250–269.</li>
+<li>2021. Tony Huiquan Zhang, Jinlu Sun*†, and Liqun Cao. “Education, Internet Use and Confidence in the Police: Testing the ‘Informed Citizen’ Thesis in the Philippines.” <em>Asian Journal of Criminology</em>, 16(2), 165–182.</li>
+<li>2021. Anli Jiang†, Zhengxu Wang, and Tony Huiquan Zhang*. “Political Trust in East and Southeast Asia: The Joint Effects of Education, Corruption Perception, and Urbanization.” <em>International Journal of Public Opinion Research</em>, 33(4), 911–926.</li>
+<li>2020. Tony Huiquan Zhang, Jing Hu, and Xichao Zhang*. “Disparities in Subjective Wellbeing: Political Status, Urban-Rural Divide and Cohort Dynamics in China.” <em>Chinese Sociological Review</em>, 52(1), 56–83.</li>
+<li>2019. Tony Huiquan Zhang*. “The Rise of the Princelings in China: Career Advantages and Collective Elite Reproduction.” <em>Journal of East Asian Studies</em>, 19(2), 169–196.</li>
+<li>2019. Tony Huiquan Zhang* and Robert Brym. “Political Freedom, Education and Tolerance of Homosexuality: A Comparative Study of 88 Societies based on the World Values Survey.” <em>Sociological Forum</em>, 34(2), 501–521.</li>
+<li>2017. Tony Huiquan Zhang†, Robert Brym*, and Robert Andersen. “Liberalism and Postmaterialism in China: The Role of Social Class and Inequality.” <em>Chinese Sociological Review</em>, 49(1), 65–87.</li>
+<li>2016. Tony Huiquan Zhang*†. “Weather Effects on Social Movements: Evidence from New York City and Washington D.C., 1960–95.” <em>Weather, Climate, and Society</em>, 8(3), 299–311.</li>
+<li>2014. Robert Brym*, Melissa Godbout†, Andreas Hoffbauer†, Gabe Menard†, and Tony Huiquan Zhang†. “Social Media in the 2011 Egyptian Uprising.” <em>British Journal of Sociology</em>, 65(2), 266–292.</li>
+</ol>
+<p class="note">* Corresponding author. † Student co-authors.</p>
+</details>
+</section>
+
+<section id="data">
+<h2>Data &amp; Code</h2>
+<p>When conducting quantitative research, I work with R. I enjoy the language and the supportive R community, and share practical notes and code from my own social research.</p>
+<p>Topics include data cleaning and reshaping; regression and general linear models; network analysis; agent-based modelling; web scraping; Chinese text mining and sentiment analysis; GIS and spatiotemporal analysis; and interactive data visualization.</p>
+<p>I also share data and programming code for reproducible research. Materials are for academic use. Please do not edit or redistribute datasets without permission, and cite the associated work when using them.</p>
+<p><a href="https://github.com/huiquanR">Selected code, data and slides on GitHub</a></p>
+</section>
+
+<section id="teaching">
+<h2>Teaching</h2>
+<p>I have taught undergraduate and graduate courses at St. Thomas More College, the University of Saskatchewan, and the University of Macau.</p>
+<ul class="topic-list">
+<li>Introduction to Sociology</li>
+<li>Sociological Theory</li>
+<li>Social Statistics</li>
+<li>Social Research Methods / Logic of Social Inquiry</li>
+<li>Political Sociology</li>
+<li>Social Movements / Collective Behavior</li>
+<li>Sociology of China / Contemporary Chinese Society</li>
+<li>Deviance and Social Control / Criminology</li>
+</ul>
+<p>Prospective Master’s and PhD students working on public opinion, political communication, diversity and inequality, or politics in Asia and China are welcome to contact me.</p>
+</section>
+
+<section id="music">
+<h2>Music &amp; Lyrics</h2>
+<p lang="zh">业余时间，我是一名国语流行音乐作词人，曾为周传雄、周深、刘宇宁、黄龄、黄霄云、李玉刚、王铮亮、井胧、陈若轩、张云龙、连淮伟、张恋歌、醉雪、靖佩瑶等歌手、艺人创作歌曲。</p>
+<p lang="zh">代表作包括刘宇宁《天问》、黄龄《小雨》、醉雪《无涯》、周深《照耀星河》、李玉刚《窗花》、周传雄《妖王之王》、井胧《骁》、《好在你没离开》和《前尘》等。音乐合作事宜，欢迎通过电子邮箱联系。</p>
+<p>Below is the published song list as presented on my Weebly site. Some early entries link to listening pages.</p>
+<details class="song-years"><summary>2016–2018 (19 songs)</summary><ol class="song-list">
+<li>2016—001 钱&沈《<a href="https://www.youtube.com/watch?v=wLareqj8y4Y">You didn’t leave me 好在你没离开</a>》[《灵契》插曲 by Jalam]</li>
+<li>2016—002 钱&沈《<a href="https://www.youtube.com/watch?v=uV4TlZHuv-c">Don’t Forget 不忘</a>》[《狐妖小红娘》插曲 by 张恋歌]</li>
+<li>2017—003 钱&沈《<a href="https://www.youtube.com/watch?v=vkJbKnQBSys">Remember 铭记</a>》[《狐妖小红娘》主题曲 by 呦猫UNEKO]</li>
+<li>2017—004 钱&沈《<a href="https://www.bilibili.com/video/BV1sx41127ow/">Forever Gone 君不归</a>》[《君临臣下》插曲 by 喵酱]</li>
+<li>2017—005 钱&沈《<a href="https://www.bilibili.com/video/av9525725/">The Game – TV Version</a>》[《银之守墓人》片尾曲 by RiyO]</li>
+<li>2017—006 钱&沈《<a href="https://www.bilibili.com/video/av9525725/">Come with me 与我同行</a>》[《银之守墓人》片头曲 by 鱼椒盐]</li>
+<li>2017—007《<a href="https://www.youtube.com/watch?v=6_jg1fziGI8">凌晨四点四分 4:04 am</a>》[歌手冥月，专辑《沉溺》]</li>
+<li>2017—008 许昊珂《<a href="http://www.170hi.com/song/34481.html">意外 Unexpected</a>》[电影《这就是命》插曲]</li>
+<li>2017—009 钱&沈《<a href="https://www.missevan.com/sound/player?id=497208">回望 Looking Back</a>》[爱奇艺《灵域》第五季片尾曲 by Mokona]</li>
+<li>2017—010 钱&沈《<a href="https://www.youtube.com/watch?v=f-Jrg3QWTsg">无涯 Unlimited</a>》[《一人之下》第二季片头曲 by 醉雪]</li>
+<li>2017—011 钱&沈《<a href="https://www.youtube.com/watch?v=_gxg3Vc05U8">张恋歌—回家的路</a>》[腾讯动漫《网瘾禁区》片尾曲]</li>
+<li>2017—012《向前走》—北京物资学院合唱作品</li><li>2017—013 马子木WILL《味》</li><li>2017—014 马子木WILL《离情记》</li><li>2017—015 马子木WILL《我有酒你有故事吗》修改</li>
+<li>2017—016 马子木WILL《<a href="https://open.spotify.com/album/6X869FfF0IIqBKsrxXiwDl">廉价时代</a>》</li><li>2017—017 马子木WILL《For you for me》</li><li>2017—018 马子木WILL《不悔》</li>
+<li>2018—019 马子木WILL《<a href="https://www.bilibili.com/video/av31197420">我们的梦想</a>》—湖南卫视《音乐新声力》活动主题曲</li>
+</ol></details>
+<details class="song-years"><summary>2019 (12 songs)</summary><ol class="song-list">
+<li>2019—020 许昊珂《茅小勇—《燕阳春》电视剧插曲《<a href="https://www.bilibili.com/video/BV1Wb41137H8/">前尘</a>》》</li>
+<li>2019—021 张汇泉《<a href="https://www.youtube.com/watch?v=Vbjg2tSdWes">你没有来</a>》</li>
+<li>2019—022 张汇泉《<a href="https://music.apple.com/hk/album/%E6%88%91%E4%B8%8D%E9%9C%80%E8%A6%81i-dont-need-it/1492846664">只是</a>》</li>
+<li>2019—023 张汇泉《<a href="https://music.apple.com/hk/album/%E6%88%91%E4%B8%8D%E9%9C%80%E8%A6%81i-dont-need-it/1492846664">我不需要</a>》</li>
+<li>2019—024 张汇泉《<a href="https://music.apple.com/hk/album/%E6%88%91%E4%B8%8D%E9%9C%80%E8%A6%81i-dont-need-it/1492846664">怎么会这样</a>》</li>
+<li>2019—025 钱&沈《仙境傳說RO：新世代的誕生》OP《<a href="https://www.youtube.com/watch?v=0FgEnuY_46M">Starlight 你是星光</a>》</li>
+<li>2019—026 梦织音、连淮伟《<a href="https://www.youtube.com/watch?v=CQrF32Pmtrs">Vibrate</a>》</li>
+<li>2019—027 薄彩生《四海鲸骑 第二季》片头曲《<a href="https://www.youtube.com/watch?v=zVOxDgkSuFE">破浪</a>》</li>
+<li>2019—028 许昊珂《电影〈测谎人〉插曲：周延英《<a href="https://y.qq.com/n/ryqq/songDetail/000szqOP1SfwUw">答案</a>》》（2021-08-10发布）</li>
+<li>2019—029 薄彩生、Priest、B站、海岸线动画《残次品》OP《星云烬》</li>
+<li>2019—030 苏耀光《<a href="https://zhuanlan.zhihu.com/p/192598209">周旋—手牵手</a>》</li>
+<li>2019—031 潘君保《<a href="https://zhuanlan.zhihu.com/p/200926782">张云龙—我们的时代</a>》</li>
+</ol></details>
+<details class="song-years"><summary>2020 (8 songs)</summary><ol class="song-list">
+<li>2020—032 张汇泉《<a href="https://www.bilibili.com/video/BV1sE411W7Uy">旧相片 新想念</a>》</li>
+<li>2020—033 张汇泉《<a href="https://music.apple.com/cn/album/%E4%B8%8D%E7%9F%A5%E6%89%80%E6%8E%AAlost/1556212759">不知所措 2015/2020 五周年修订版</a>》</li>
+<li>2020—034 张汇泉《<a href="https://music.apple.com/cn/album/%E4%B8%8D%E7%9F%A5%E6%89%80%E6%8E%AAlost/1556212759">小野兽</a>》</li>
+<li>2020—035 张汇泉《<a href="https://music.apple.com/cn/album/%E4%B8%8D%E7%9F%A5%E6%89%80%E6%8E%AAlost/1556212759">不该</a>》</li>
+<li>2020—036 张汇泉《<a href="https://music.apple.com/cn/album/%E4%B8%8D%E7%9F%A5%E6%89%80%E6%8E%AAlost/1556212759">枯等</a>》</li>
+<li>2020—037 张汇泉《<a href="https://www.youtube.com/watch?v=oPEZ1XQ87mQ">西斯廷</a>》</li>
+<li>2020—038 张汇泉《<a href="https://www.youtube.com/watch?v=h1Jqy5H9iX0">成为传奇</a>》</li>
+<li>2020—039 张汇泉《流连》</li>
+</ol></details>
+<details class="song-years"><summary>2021–2026 (19 published songs)</summary><ol class="song-list">
+<li>2021—040 闫骁男《<a href="https://www.youtube.com/watch?v=SDtT5a3KHRU">陈若轩—无可奈何</a>》</li>
+<li>2021—041 许昊珂《<a href="https://www.amazon.com/%E7%81%B0-%E6%9D%A8%E8%8C%97%E6%B7%87/dp/B08THXXSJR">杨茗淇—灰</a>》</li>
+<li>2021—042 闫骁男《山河令》主题曲：摩登兄弟刘宇宁《<a href="https://www.youtube.com/watch?v=wQhr-JOy9k8">天问</a>》</li>
+<li>2021—043 闫骁男《风暴舞》插曲：黄霄云《<a href="https://www.youtube.com/watch?v=CIyugN6Lyl4">你懂的思念</a>》</li>
+<li>2021—044 闫骁男《西游记之再世妖王》主题曲：周传雄《<a href="https://www.youtube.com/watch?v=ghG2LMe_Umg">妖王之王</a>》</li>
+<li>2021—045 薄彩生《百妖谱 第二季》主题曲：龚淑均《<a href="https://www.youtube.com/watch?v=jOOBMIqV_JM">星如雨</a>》</li>
+<li>2021—046 闫骁男：井胧、井迪儿《<a href="https://www.youtube.com/watch?v=3WV8wP4OZ4o">骁</a>》</li>
+<li>2021—047 许昊珂：靖佩瑶《<a href="https://www.youtube.com/watch?v=6MaXjVfZrKw">追光</a>》（《时光与你别来无恙》插曲）</li>
+<li>2021—048 闫骁男：王铮亮《因你而生》</li>
+<li>2022—049 闫骁男：李玉刚《窗花》</li>
+<li>2022—050 闫骁男：周深《照耀星河》（《良辰好景知几何》插曲）</li>
+<li>2022—051 闫骁男：慕一《归零》</li>
+<li>2022—052 闫骁男：黄龄《小雨》</li>
+<li>2023—053 闫骁男：李玉刚《窗花》</li>
+<li>2023—054 薄彩生：《常棣歌》（《百妖谱·司府篇》动画插曲，乐小彤/醉雪/薄彩生）</li>
+<li>2023—055 闫骁男：井胧、井迪儿《太极》</li>
+<li>2024—056 薄彩生：《月行船》（《百妖谱·司府篇》动画插曲，张郁梓）</li>
+<li>2025—057 闫骁男：井迪儿《明天寂寞》</li>
+<li>2026—058 许昊珂《救赎》</li>
+</ol>
+<p class="note">The original page also lists several works as “to be continued”: 刘凤瑶; 闫骁男《井胧—找不到》《心灰》《井迪儿—偷偷想你》《废弃》《痊愈》.</p>
+</details>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>For research collaboration, graduate study enquiries, music collaboration, publication, or book enquiries, please contact me by email: <span>huiquanzhang [at] umac.mo</span>.</p>
+<p lang="zh">咨询研究生申请、科研合作、音乐合作、发表出版等事宜，请联络我的电子邮箱：huiquanzhang [at] umac.mo。</p>
+<p class="note">My default policy is to decline students’ reference requests, except for people with whom I have had at least six months of substantive collaboration (for example, as a research or teaching assistant).</p>
+<p class="note" lang="zh">默认不为学生写申请推荐信；与我有六个月以上实质合作经历（如担任助研或助教）的学生可作例外考虑。</p>
+</section>
+<footer class="note">Tony Huiquan Zhang · 张汇泉 · <a href="https://github.com/huiquanR">GitHub</a></footer>
+</main>
 </body>
-
-
+</html>
