@@ -6,11 +6,10 @@
 
 ## 添加一篇文章
 
-1. 在 `posts/` 复制一篇 Markdown 文件。
-2. 在文件开头添加 YAML 信息：`title`、`date`、`permalink` 和 `layout: post`。
+1. 在 `posts/` 新建一篇 Markdown 文件。
+2. 在文件开头添加 YAML 信息：`title`、`date`、`permalink` 和 `layout: post`。`date` 填文章原本的日期，格式为 `YYYY-MM-DD`。
 3. `permalink` 使用 `/posts/文章短名/` 的格式。
-4. 在 `posts/index.html` 的列表里加上日期、标题和对应链接。
-5. 提交并推送到 GitHub，GitHub Pages 会自动生成文章页面。
+4. 提交并推送到 GitHub，GitHub Pages 会自动生成文章页面，并按 `date` 从新到旧更新 `posts/` 索引。旧文章也会自动插入对应日期的位置，不需要手动调整列表。
 
 ## 添加一本电子书
 
