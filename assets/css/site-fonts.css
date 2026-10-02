@@ -1,2 +1,8 @@
-:root{--site-font:Helvetica,Arial,"Microsoft YaHei","微软雅黑",sans-serif}
-html,body{font-family:var(--site-font)}
+@font-face{font-family:"Charter";src:url("/assets/fonts/charter_regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Charter";src:url("/assets/fonts/charter_italic.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
+@font-face{font-family:"Charter";src:url("/assets/fonts/charter_bold.woff2") format("woff2");font-style:normal;font-weight:700;font-display:swap}
+@font-face{font-family:"Charter";src:url("/assets/fonts/charter_bold_italic.woff2") format("woff2");font-style:italic;font-weight:700;font-display:swap}
+:root{--site-font:"Charter","Microsoft YaHei","微软雅黑",Georgia,"Noto Serif SC","Songti SC",serif;--site-link:#245da8}
+html,body,h1,h2,h3,h4,h5,h6{font-family:var(--site-font)}
+a:link,a:visited{color:var(--site-link);text-decoration:none}
+a:hover,a:focus-visible{color:var(--site-link);text-decoration:underline}
