@@ -1,5 +1,5 @@
 ---
-title: "记2018年一件旧事"
+title: "2018一件旧事：我与罗纳德伯特"
 date: 2025-09-02
 permalink: /posts/2025-09-02-ji2018nian-yijian-jiushi/
 layout: post
