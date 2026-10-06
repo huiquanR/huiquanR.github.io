@@ -1,0 +1,12 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ '/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/posts/' | absolute_url }}</loc></url>
+{% assign articles = site.pages | where: "layout", "post" | sort: "date" | reverse %}
+{% for article in articles %}
+  <url><loc>{{ article.url | absolute_url | xml_escape }}</loc></url>
+{% endfor %}
+</urlset>
