@@ -1,5 +1,5 @@
 ---
-title: "收尾了一个项目；拿到一个RR；清理了一套数据。"
+title: "日记"
 date: 2020-07-30
 permalink: /posts/2020-07-30-project-wrap-up/
 layout: post
@@ -12,5 +12,3 @@ layout: post
 刚刚开启了一个项目，正在傍晚阳光下看文献。
 
 记录一个放松的瞬间。
-
-——原始记录：[知乎文章（2020.7.30）](https://zhuanlan.zhihu.com/p/165277773)
