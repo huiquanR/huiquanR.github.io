@@ -1,13 +1,12 @@
 ---
-title: "知乎关注问题20261013存档"
+title: "关注问题202610存档及链接合集"
 date: 2026-10-13
 permalink: /posts/2026-10-13-zhihu-following-questions/
 layout: post
 ---
 
-# 知乎关注问题20261013存档
+# 关注问题202610存档及链接合集
 
-来源入口：https://www.zhihu.com/people/lyricistz/following/questions
 
 抓取日期：2026-10-13
 
