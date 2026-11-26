@@ -72,7 +72,7 @@ async function openPreview() {
     if (!loading) loading = (async () => {
       const pdfjs = await import('./pdf.mjs');
       pdfjs.GlobalWorkerOptions.workerSrc = new URL('./pdf.worker.mjs', import.meta.url).href;
-      return pdfjs.getDocument('/assets/cv/cv_zhang_202612.pdf').promise;
+      return pdfjs.getDocument('/assets/cv/cv_zhang_202612_new.pdf').promise;
     })();
     pdf = await loading;
     if (panel.hidden) return;
